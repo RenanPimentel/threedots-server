@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "tsc",
+    "heroku-postbuild": "tsc",
     "start": "node dist/index",
     "watch": "tsc -w",
     "dev": "nodemon dist/index"
